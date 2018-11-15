@@ -1,0 +1,200 @@
+
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	margin:0 auto;
+	width:100%;
+	background-color:#1E366E;
+}
+
+.body-cont{
+	width:100%;
+    position:static;
+    padding-top:120px;
+    padding-left: 70px;
+    z-index: 1;
+/*    margin-left: 150px;*/
+}
+
+.sidebar{
+    width: 150px;
+    float:left;
+    top: 130px;
+    position: fixed;
+    padding-top: 80px;
+    border-top: 30px solid #1E366E;
+    background-color: #43085a;
+    height: 300px;
+    margin-left: 0 auto;
+    text-align: center;
+    overflow: auto;
+    z-index: -1;
+}
+
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index: 2;
+}
+.header {
+    height:120px;
+    background:#58A09B;
+    border:1px solid #58A09B;
+    width:100%;
+    margin:0px auto;
+}
+.content {
+    width:100%;
+    background:#58A09B;
+    border:1px solid #1E366E;
+    height:99%;
+    margin:0px auto;
+}
+
+title{
+	font-size:20px; color:black:
+	
+}
+
+a:link{
+	color:blue;
+	text-decoration:none;	
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:yellow;
+}
+
+.photo-right{
+	float: right;
+	margin-right: 20px;
+	position: fixed;
+	right: 0;
+	padding-top:20px;
+}
+
+.photo-left{
+	float: left;
+	margin-left: 0px;
+	position: fixed;
+	padding-top:20px;
+}
+
+strong{
+	color:red;
+	font-size: 20px;
+}
+h1 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 52px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 22px;
+}
+h2 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 18px;
+	color: yellow;
+}
+h3 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 18px;
+	color: white;
+}
+
+h4 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 12px;
+	color: #20DFE2;
+}
+
+p {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+div.gallery-cont{
+	width:100%;
+    position:relative;
+    padding-top:80px;
+	
+}
+	
+/* div.gallery { */
+    /* margin: 0px auto; */
+    /* border: 1px solid #ccc; */
+    /* /* float: center; */ */
+    /* width: 180px; */
+/* } */
+
+/* div.gallery:hover { */
+    /* border: 1px solid #777; */
+/* } */
+
+/* div.gallery img { */
+    /* width: 100%; */
+    /* height: auto; */
+/* } */
+
+/* div.desc { */
+    /* padding: 2px; */
+    /* text-align: center; */
+/* } */
